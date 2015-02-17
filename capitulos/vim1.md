@@ -45,7 +45,7 @@ Usar Vim es una experiencia completamente distinta a usar cualquier otro editor 
 **Ahora que estamos en el modo normal podemos hablar Vim (no se pulsa todo a la vez, se hace letra a letra)**:
 >Elimina la palabra donde esté el cursor: **diw** (delete inside word) <br>
 Cambia la frase en la que estés: **cis** (change inside sentence)<br>
-Cambia lo que haya dentro de las paréntesis: **ci”** (change inside quote)<br>
+Cambia lo que haya dentro de las comillas: **ci”** (change inside quote)<br>
 Cambia lo que haya hasta ‘foo’: **c/foo** (change search foo)<br>
 Cambia todo lo que haya hasta la letra X: **ctX**<br>
 Selecciona un párrafo: **vap** (visual around paragraph)
