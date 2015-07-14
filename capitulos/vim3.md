@@ -1,7 +1,5 @@
 # Cómo usar Vim desde cero : 3 - El modo normal
 
-cómo usar vim
-
 Vim nos proporciona una interfaz modal. Esto significa que el resultado de pulsar cualquier tecla de nuestro teclado, puede variar dependiendo el modo que esté activado en ese momento. Es vital saber el modo que está activado y también saber la forma de cambiar de un modo a otro. En esta parte de la guía sobre cómo usar Vim vamos a ver lo que podemos hacer en el modo normal.
 
 Se podría decir que el modo normal de Vim es el estado de reposo. Otros editores de texto pasan la mayor parte del tiempo en lo que a Vim equivale al modo insertar. Para alguien que acaba de llegar a este editor modal, puede parecer extraño que pasemos la mayor parte del tiempo en ese modo. Para explicarlo podemos basarnos en la metáfora del modo de trabajo de un pintor.
@@ -23,7 +21,3 @@ En el post anterior hicimos una modificación en nuestro `.Vimrc` en el que camb
 En Vim tenemos que diferenciar una *palabra* de una *PALABRA*. Una *palabra* se diferencia por puntos, guiones u otros caracteres mientras que una *PALABRA* se diferencia por espacios. `e` nos lleva al final de las *palabras* mientras que `E` sirve para el final de las *PALABRAS*. `w` y `W` hacen lo mismo pero para el inicio de las palabras y por último, `b` y `B` es igual que el anterior pero hacia atrás. `{` y `}` nos mueven al inicio y al final del párrafo.
 
 En el primer post de está guía vimos lo que hacían comandos como `d`, `f`, `t` y `x`. No podemos olvidarnos de `y` (copiar) ni de `p` (pegar). Dependiendo de si los invocamos con mayúscula o minúscula tendrán efectos distintos en el texto. `F` y `T` irán marcha a tras, `P` pegará el texto en la misma línea, `Y` actuará sobre la línea completa y `D` tendrá el mismo efecto que `d$`. Por último, están `ctrl+a` y `ctrl+x` que invocados sobre un número harán operaciones aritméticas de sumar o restar. Por ejemplo, `10 ctrl+a` sumará 10 al número donde tengamos el cursor, ideal para cuando editamos CSS.
-
-
-
-
